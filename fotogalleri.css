@@ -6,7 +6,8 @@
 
 .childList {
     list-style-type: none; /* Remove default list styles */
-    padding: 0; /* Remove default padding */
+    padding: 0; 
+    text-align: center;/* Remove default padding */
 }
 
 .childList li {
@@ -25,12 +26,12 @@
 }
 
 .parentList ul {
-    width: 62%;
+    width: 450px;
     height: 30px;
     border-radius: 20px;
     background-color: #292929;
     padding-left: 0%;
-    min-width: 400px;
+    
 }
 
 * {
